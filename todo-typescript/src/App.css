@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.delete {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: red;
+  cursor: pointer;
+  height: 40px;
+  color: aliceblue;
+  transition: border-color 0.25s;
+}
+.add-btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgb(33, 33, 225);
+  cursor: pointer;
+  height: 40px;
+  color: aliceblue;
+  transition: border-color 0.25s;
+}
+input {
+  height: 35px;
+  border-radius: 5px;
+  border-width: 0.5px;
+}
+
+p {
+  width: 150px;
+}
